@@ -1,4 +1,5 @@
-# Add the import statements for functions from string_utils.py and equation_utils.py here
+from equation_utils.py import ELEMENTS,generate_equation_for_element,build_equations,my_solve
+from string_utils.py import split_by_capitals,split_by_capitals,split_by_capitals,parse_chemical_reaction,parse_chemical_reaction
 
 
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
