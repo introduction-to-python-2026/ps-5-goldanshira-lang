@@ -1,6 +1,7 @@
 from equation_utils import *
 from string_utils import *
-
+from sympy import solve as sympy_solve
+from sympy import symbols, Eq
 
 def balance_reaction(reaction): #"Fe2O3 + H2 -> Fe + H2O"
 
